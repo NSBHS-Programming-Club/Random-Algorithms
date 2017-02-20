@@ -22,7 +22,5 @@ class binarySearch:
                 number_found = True
                 return "Number Found At Index "+str(midpoint)+" Of Sorted Array"
 
-
-
 binary = binarySearch()
 print(binary.search(binary.array_to_search, 8))
